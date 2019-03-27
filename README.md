@@ -30,8 +30,6 @@ EPIC Mail is one of the most flexible social network on the internet, It allows 
 
 - Swagger UI
 
-- GitHub
-
 - Babel
 
 - Postgresql
