@@ -1,8 +1,6 @@
 <html>
     <head>
-        <title>
-            Register an EPIC Mail Account
-        </title>
+        <title>Reset an EPIC Mail Account Password</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -11,22 +9,11 @@
         <div id="container">
             <form>
                 <h3 id="form-header">
-                   Create Account
+                   Password Recovery
                 </h3>
-                <div class="form-group" >
-                    <input placeholder="Full Name (First Name Last Name)" id="fname" class="input" type="text" required>
-                </div>
-
-                <div class="form-group">
-                    <input placeholder="User Name" id="uname" class="input" type="text" required>
-                </div>
 
                 <div class="form-group" >
                     <input placeholder="Email Address" id="email" class="input" type="email" required>
-                </div>
-                
-                <div class="form-group">
-                    <input placeholder="Enter Your Password" id="password" class="input" type="password" required>
                 </div>
 
                 <button id="submit" onclick="submit(email.value, password.value)">
@@ -40,9 +27,10 @@
                 </h4>
 
                 <h4>
-                    <a href="reset.html" class="link">Forgot Password?</a>
+                    <a href="reset.html" class="link">Dont have and Account?</a>
                 </h4>
             </p>
         </div>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
