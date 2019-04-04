@@ -3,7 +3,9 @@
     margin  : 0;
 }
 body{
-    background-color:#D5D6D2;
+    background-color:blueviolet;
+    width: 100%;
+    height: 100%;
 }
 
 #container{
@@ -16,6 +18,8 @@ body{
     border-radius: 10px;
     min-height:400px;
 }
+
+
 
 h3#form-header{
     color: #fff;
@@ -66,10 +70,231 @@ a{
         float: right;
     }
 
+#dp{
+    padding: 20px;
+    position: relative;
+    top:0;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #D5D6D2;
+    border-radius: 40px;
+}
+
+.icon{
+    width : 25px;
+    height: 25px;
+    position: relative;
+    top: 6px;
+}
+
+.text{
+    position: relative;
+    left: 20px;
+}
+#welcome{
+    position: relative;
+    top: 25px;
+    color: #fff;
+    font-family: "impact";
+    font-size: 1.25em;
+}
+#sidebar li{
+    padding: 10px 10px;
+}
+#sidebar ul{
+    margin-top: 50px;
+}
+#others{
+    background-color: purple;
+    flex-grow: 1;
+}
+.card{
+    width: 80%;
+    background-color: #D5D6D2;
+    box-shadow: 1px 1px 3px #fff;
+    margin: auto;
+    margin-top: 20px;
+    padding:20px;
+    border: 1px solid #777777
+}
+
+li a{
+    padding: 10px;
+}
+
+.red{
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    background-color: red;
+    float: left;
+    position: relative;
+    top:4px;
+}
 
 
+.green{
+    height: 10px;
+    width: 10px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    float: left;
+    position: relative;
+    top:3px;
+}
+
+#select{
+    padding: 1%;
+    border: 0;
+    width: 80%;
+}
+.dp{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+#select{
+    padding: 1%;
+    border: 0;
+    width: 80%;
+}
+.dp{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 30px;
+    position: relative;
+    bottom: 10px;
+}
+.card span{
+    color: #f62a00;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    height: 100%;
+    background-color: blue;
+
+}
+
+#sidebar{
+    min-width: 180px;
+    background-color: red;
+    height: 100%;
+    border-right: 1px double #D5D6D2;
+	 
+}
+
+.messages{
+display: flex;
+flex-wrap: wrap
+}
+
+.message{
+    flex-grow: 8
+}
+.card:hover{
+    padding: 21px;
+    transition: padding .25s;
+    cursor: pointer; 
+    
+}
+.names{
+    min-width: 200px;
+    position: relative;
+    left: 25px;
+}
+
+.msg{
+    width: 80%;
+    height: 25px;
+    background-color: #D5D6D2;
+    box-shadow: 1px 1px 3px #fff;
+    margin: auto;
+    margin-top: 20px;
+    padding:20px;
+    color: #fff
+}
+#top{
+    color: #ffffff;
+}
+#logo1{
+    font-size: 2.4em;
+    font-family: impact;
+    position: relative;
+    top: 0px;
+    width: 237px;
+    left: 20.5%;          
+}
+#carrot{
+    font-size: 2.5em;
+    cursor: pointer;
+    display: none;
+    flex-grow: 1;
+}
+#top{
+    display: flex;
+
+}
+.closebtn{
+    display: none;
+    font-size: 3em;
+    position: relative;
+    left : 150px;
+}
     @media screen and (max-width : 425px){
         #container{
             margin-top: 15px;;
         }
     }
+
+    @media screen and (max-width: 768px){
+        .names{
+            min-width: 200px;
+            position: relative;
+            left: 5px;
+        }
+
+        .message{
+            position: relative;
+            left: 5px;
+        }
+        #sidebar{
+            display: none;
+			position: fixed; 
+			z-index: 1;
+			top: 0;
+			left: 0;
+        }
+        #carrot{
+            display: inline;
+        }
+        .closebtn{
+            display: inherit;
+        }
+        #logo1{
+            font-size: 2.4em;
+            font-family: impact;
+            position: relative;
+            top: 5px;
+            flex-grow: 2;
+            left: 1%;             
+        }
+    } 
+@media  screen and (width: 1440px){
+    #logo1{
+        font-size: 2.4em;
+        font-family: impact;
+        position: relative;
+        top: 5px;
+        flex-grow: 2;
+        left: 20%;             
+    }
+}

@@ -1,0 +1,157 @@
+<html>
+    <head>
+        <title>EPIC Mail Profile</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+    <body>
+        <div id="top">
+            <span id="carrot" onclick="openNav()">&#9776;</span>
+            <span id="logo1">
+                EPIC Mail Inbox
+            </span>
+        </div>
+        <div class="container">
+              <div id="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div id="dp">
+                      <img src="images/profile.jpg" class = "img"><br><br>
+                      <span id="welcome">
+                          Welcome, <i>Lafiagi</i>
+                      </span>
+                  </div>
+                    <ul>
+                            <hr>
+                        <li>
+                        <a href="#">
+                            <span id="icon">
+                                <img src="icons/mail.png" class="icon">
+                            </span>
+                            <span class = "text">
+                                Inbox
+                            </span>
+                                
+                        </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#">
+                                <span id="icon">
+                                    <img src="icons/mail (1).png" class="icon">
+                                </span>
+                                <span class = "text">
+                                    Sent
+                                </span>     
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#">
+                                <span id="icon">
+                                    <img src="icons/draft1.jpg" class="icon">
+                                </span>
+                                <span class = "text">
+                                    Drafts
+                                </span>
+                                
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#">
+                                <span id="icon">
+                                    <img src="icons/compose.png" class="icon">
+                                </span>
+                                <span class = "text">
+                                    Compose
+                                </span>
+                                
+                            </a>
+                        </li>
+                        <hr>
+                        <li>
+                            <a href="#">
+                                <span id="icon">
+                                    <img src="icons/group (2).png" class="icon">
+                                </span>
+                                <span class = "text">
+                                    Groups
+                                </span>
+                                
+                            </a>
+                        </li>
+                        <hr>
+                    </ul>
+              </div>
+              
+              <div id="others">
+                  <div class="msg">
+                    
+                      <span>
+                          <b>All Messages (740)</b>
+                      </span>
+                      <select id="select" onmouseover="change()">
+                            <div>
+                                <option>Read</option>
+                            </div>
+                            <div class="card">
+                                <option>Unread</option>
+                            </div>
+                        </select>
+                  </div>
+                    <div class="card">
+                        <img src="images/profile.jpg" class="dp">
+                        <div class="messages">
+                            <div class="names">
+                                <div class="name">
+                                    <b>Abubakar Sadiq</b>
+                                </div>
+                                <div class="status">
+                                    <div class = "red"></div>
+                                    &nbsp;Read
+                                </div>
+                            </div>
+                            <div class="message">
+                                <span >
+                                    <b>
+                                        Apology To Mr. Lafiagi
+                                    </b>
+                                </span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consect solos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/profile.jpg" class="dp">
+                        <div class="messages">
+                            <div class="names">
+                                <div class="name">
+                                    <b>Ahmad Nasiru Elrufai</b>
+                                </div>
+                                <div class="status">
+                                    <div class = "green"></div>
+                                    &nbsp;Unread
+                                </div>
+                            </div>
+                            <div class="message">
+                                <span >
+                                    <b>
+                                        Invitation for Hackathon
+                                    </b>
+                                </span>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consect solos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </div>
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
