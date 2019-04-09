@@ -3,7 +3,7 @@
     margin  : 0;
 }
 body{
-    background-color:blueviolet;
+    background-color:#1e656d;
     width: 100%;
     height: 100%;
 }
@@ -108,7 +108,7 @@ a{
     margin-top: 50px;
 }
 #others{
-    background-color: purple;
+    background-color: #1e656d;
     flex-grow: 1;
 }
 .card{
@@ -186,7 +186,7 @@ li a{
 
 #sidebar{
     min-width: 180px;
-    background-color: red;
+    background-color:#111;
     height: 100%;
     border-right: 1px double #D5D6D2;
 	 
@@ -231,7 +231,7 @@ flex-wrap: wrap
     position: relative;
     top: 0px;
     width: 237px;
-    left: 20.5%;          
+    left: 6.5%;          
 }
 #carrot{
     font-size: 2.5em;
@@ -242,6 +242,13 @@ flex-wrap: wrap
 #top{
     display: flex;
 
+}
+#consume{
+    height: 50px;
+    background-color:#111;
+    width: 180px;
+    border-right: .5px solid #fff;
+    display: none
 }
 .closebtn{
     display: none;
@@ -296,5 +303,14 @@ flex-wrap: wrap
         top: 5px;
         flex-grow: 2;
         left: 20%;             
+    }
+}
+
+@media screen and (min-width:769px){
+    #consume{
+        display: inline
+    }
+    #carrot{
+        display: none;
     }
 }
